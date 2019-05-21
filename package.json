@@ -1,0 +1,17 @@
+{
+  "name": "appp-node",
+  "version": "1.0.0",
+  "description": "mon ecouteur sur la base de donnée mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "farouk",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "github:mysqljs/mysql",
+    "mysql-events": "0.0.11",
+    "nodemon": "^1.18.11"
+  }
+}
